@@ -1,0 +1,5 @@
+#!/bin/bash
+ln -s $(pwd)/sshdev.py /usr/local/bin/sshdev
+cp -f $(pwd)/local.pbcopy.9999.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/local.pbcopy.9999.plist
+./install_watch_service

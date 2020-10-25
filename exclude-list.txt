@@ -1,0 +1,5 @@
+/docker/data/
+/.git/
+/.elixir_ls/
+/_build/deps/
+/log/
